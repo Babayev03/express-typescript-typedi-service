@@ -7,8 +7,8 @@ const transporter = nodemailer.createTransport({
   secure: true,
   auth: {
     type: "login",
-    user: "c8657545@gmail.com",
-    pass: "bcozssymjajpqicg",
+    user: "YOUR_MAIL",
+    pass: "YOU_PASSWORD",
   },
 });
 export async function sendMail(otpCode: string, to: string) {
